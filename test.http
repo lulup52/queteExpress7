@@ -1,0 +1,32 @@
+### GET /api/users
+GET http://localhost:3001/api/users
+
+### POST /api/users fail
+POST http://localhost:3001/api/users
+Content-Type: application/json
+
+{
+    "email": "bi7777777777777dul@jftyjftj.ki",
+    "password": "",
+    "name": "dthdrtjdrtjdrtjdtjdjdt"
+}
+
+### POST /api/users
+POST http://localhost:3001/api/users
+Content-Type: application/json
+
+{
+    "email": "kllllool@post21.api",
+    "password": "mdppostapi21",
+    "name": "jesuisle21eme"
+}
+
+### PUT /api/users
+PUT http://localhost:3001/api/users/21
+Content-Type: application/json
+
+{
+    "email": "jsuis20eme@use10.ex",
+    "password": "ur-jjkukukukujr",
+    "name": "suisjevraiment le 21eme ?"
+}
